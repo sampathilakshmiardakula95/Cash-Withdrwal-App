@@ -1,11 +1,11 @@
-// Write your code here
 import './index.css'
 
 const DenominationItem = props => {
-  const {cash, cashBtm} = props
+  const {cash, cashBtn} = props
   const {value} = cash
+
   const onClickCash = () => {
-    cashBtm(value)
+    cashBtn(value)
   }
   return (
     <li className="cash-item">
@@ -17,3 +17,4 @@ const DenominationItem = props => {
 }
 
 export default DenominationItem
+Footer
