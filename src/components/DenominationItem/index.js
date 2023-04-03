@@ -17,4 +17,3 @@ const DenominationItem = props => {
 }
 
 export default DenominationItem
-Footer
